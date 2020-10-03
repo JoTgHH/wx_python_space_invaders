@@ -3,7 +3,7 @@ import wx
 """ Класс игры """
 class Game(wx.Frame):
     def __init__(self):
-        wx.Frame.__init__(self, None, title='My game, yo!')
+        wx.Frame.__init__(self, None, title='Space Invaders, yo!')
         # Инициализация настроек
         self.settings = Settings()
         # Переменная счета игрока, а также помещения его в виджет панели, панель затем помещается в vbox.
